@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--first-color-fonts);
 }
 
@@ -70,6 +70,8 @@ img {
 /*----HEADER------*/
 .header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header .container {
   display: flex;
@@ -102,8 +104,6 @@ img {
   line-height: 1.19;
   color: var(--first-color-fonts);
   margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo-web {
@@ -152,11 +152,11 @@ img {
   padding-bottom: 200px;
 }
 .hero-title {
+  letter-spacing: 0.06em;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-fonts-dark-background);
   margin-bottom: 30px;
@@ -165,7 +165,7 @@ img {
 }
 
 .hero-button {
-  font-family: inherit;
+  font-family: 'Roboto' sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
