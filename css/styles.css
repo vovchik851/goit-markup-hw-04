@@ -390,19 +390,37 @@ img {
   color: var(--first-color-fonts);
   margin-bottom: 50px;
 }
-
-.clients-list {
+/*team-list {
   display: flex;
+  margin-left: calc(-1 * var(--card-indent));
+  margin-top: calc(-1 * var(--card-indent));
+}
+.team-item {
+  margin-left: var(--card-indent);
+  margin-top: var(--card-indent);
+  flex-basis: calc(100% / 4 - var(--card-indent));
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}*/
+.clients-list {
+  /*display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between;*/
+  display: flex;
+  margin-left: calc(-1 * var(--card-indent));
+  margin-top: calc(-1 * var(--card-indent));
 }
 
 .clients-list-link {
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 90px;
+  align-items: center;*/
+  margin-left: var(--card-indent);
+  margin-top: var(--card-indent);
+  flex-basis: calc(100% / 6 - var(--card-indent));
+  min-width: 170px;
+  min-height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
