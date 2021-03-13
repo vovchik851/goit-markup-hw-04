@@ -504,7 +504,7 @@ img {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  fill: var(--color-fonts-dark-background);
+  fill: #afb1b8;
 }
 
 .social-list-link:hover,
