@@ -490,13 +490,13 @@ img {
   margin-bottom: 20px;
 }
 
-.social-list {
+.contact-social-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.social-list-link {
+.contact-social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -504,20 +504,20 @@ img {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  fill: #afb1b8;
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
   fill: var(--color-fonts-dark-background);
 }
 
-.social-list-icon {
+.contact-social-list-link:hover,
+.contact-social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.contact-social-list-link:hover .contact-social-list-icon,
+.contact-social-list-link:focus .contact-social-list-icon {
+  fill: var(--color-fonts-dark-background);
+}
+
+.contact-social-list-icon {
   width: 20px;
   height: 20px;
 }
